@@ -3,99 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Zerodha Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div
-      style="
-        display: flex;
-        justify-content: space-between;
-        padding-left: 150px;
-        padding-right: 150px;
-        box-shadow: 2px 1px 2px #eee;
-      "
+    <!-- header section -->
+    <header
+      class="navbar"
     >
-      <div style="padding-top: 20px; padding-bottom: 20px;">
-        <img width="170px" src="./assets/logo.svg"  alt="" />
+      <div class="container">
+        <div class="logo">
+         <img width="170px" src="./assets/logo.svg"  alt="" />
+          </div>
+    
+          <div class="nav-links">
+            <div href="#" class="nav-items">signup</div>
+            <div href="#" class="nav-items">About</div>
+            <div href="#" class="nav-items">Product</div>
+            <div href="#" class="nav-items">Pricing</div>
+            <div href="#" class="nav-items">support</div>
+          </div>
       </div>
 
-      <div style="display: flex; justify-content: space-between; ; padding-left: 20px; padding-right: 20px;">
-        <div style="padding: 20px; color: #666; cursor: pointer;">signup</div>
-        <div style="padding: 20px; color: #666; cursor: pointer;">About</div>
-        <div style="padding: 20px; color: #666; cursor: pointer;">Product</div>
-        <div style="padding: 20px; color: #666; cursor: pointer;">Pricing</div>
-        <div style="padding: 20px; color: #666; cursor: pointer;">support</div>
-      </div>
+    </header>
 
-    </div>
-
-    <div style="display: flex; justify-content: center; padding-top: 65px;">
-      <img width="850px" src="./assets/landingPage.png" alt="" />
-    </div>
-
-    <div style="display: flex; justify-content: center;  ">
-      <h3 style="color: #424242; font-family: Inter ;font-size: 27px; line-height: 1.25;">Invest in everything</h3>
-    </div>
-
-    <div style="display: flex; justify-content: center; ">
-      <p style="color: #424242; font-family: Inter ;font-size: 20px; line-height: 1.25; font-weight: 400; ">
-        Online platform to invest in stocks, derivatives, mutual funds, ETFs,
-        bonds, and more.
-      </p>
-      
-    </div>
-
-    <div style="display: flex; justify-content: center; ">
-      <div style="background-color: #387ed1; color: #fff;padding: 10px 30px; border: 1px solid rgba(0,0,0,0) !important; border-radius: 3px; text-align: center; font-size: 1.2rem; font-weight: 500; text-decoration: none; cursor: pointer; box-sizing: border-box; line-height: 1.2rem;">Sign up for free</div>
-    </div>
-
-    <!-- second part -->
-
-    <div style="display: flex; justify-content: space-between; margin-top: 40px; padding-left: 150px;
-        padding-right: 150px;">
-     <div style="display: flex; flex-direction: column;">
-        <div style="margin-bottom: 5px;">
-            <h2 style="font-size: 2rem; line-height: 1.5; font-weight: 500; font-family: inter;">Trust with confidence</h2>
-        </div>
-        
-        <div>
-         <h3 style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; display: block;">
-            Customer-first always
-          </h3>
-          <p style="margin-top: 5px;margin-bottom: 32px; color: #666; font-size: 1rem; line-height: 1.8; ">
-            That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India. 
+<!-- hero section -->
+    <section class="hero">
+      <div class="container">
+         <div class="hero-image">
+            <img src="./assets/landingPage.png" alt="Zerodha Platform" />
+         </div>
+         <h1 class="hero-title">Invest in everything</h1>
+         <p class="hero-subtitle">
+            Online platform to invest in stocks, derivatives, mutual funds, ETFs,
+            bonds, and more.
           </p>
-        </div>
-        <div>
-            <h3 style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; display: block;">
-                Customer-first always
-              </h3>
-              <p style="margin-top: 5px;margin-bottom: 32px; color: #666; font-size: 1rem; line-height: 1.8; ">
-                That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India. 
-              </p>
-        </div>
-        <div>
-            <h3 style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; display: block;">
-                Customer-first always
-              </h3>
-              <p style="margin-top: 5px;margin-bottom: 32px; color: #666; font-size: 1rem; line-height: 1.8; ">
-                That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India. 
-              </p>
-        </div>
-        <div>
-            <h3 style="font-size: 1.25rem; line-height: 1.6; font-weight: 500; display: block;">
-                Customer-first always
-              </h3>
-              <p style="margin-top: 5px;margin-bottom: 32px; color: #666; font-size: 1rem; line-height: 1.8; ">
-                That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India. 
-              </p>
-        </div>
-     </div>
+          <button class="cta-button">Sign up for free</button>
+      </div>
+    </section>
 
-     <div style=" margin-left: 20px; margin-right: 20px;">
-      <img width="600px" src="./assets/ecosystem.png" alt="">
-     </div>
-    </div>
+   
+
+  
+
+  
+
+    <!-- trust section -->
+
+    <section class="trust-section">
+        <div class="container">
+          <div class="two-column">
+            <div class="features-column">
+              <h2 class="section-title">Trust with confidence</h2>
+              
+              <div class="feature-card">
+                <h3 class="feature-title">Customer-first always</h3>
+                <p class="feature-text">
+                  That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity
+                  investments and contribute to 15% of daily retail exchange volumes in India.
+                </p>
+              </div>
+              
+              <div class="feature-card">
+                <h3 class="feature-title">No spam or gimmicks</h3>
+                <p class="feature-text">
+                  No gimmicks, spam, "gamification", or annoying push notifications. 
+                  High quality apps that you use at your pace, the way you like.
+                </p>
+              </div>
+              
+              <div class="feature-card">
+                <h3 class="feature-title">The Zerodha universe</h3>
+                <p class="feature-text">
+                  Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups 
+                  offer you tailored services specific to your needs.
+                </p>
+              </div>
+              
+              <div class="feature-card">
+                <h3 class="feature-title">Do better with money</h3>
+                <p class="feature-text">
+                  With initiatives like <a href="#" class="text-link">Nudge</a> and 
+                  <a href="#" class="text-link">Kill Switch</a>, we don't just facilitate 
+                  transactions, but actively help you do better with your money.
+                </p>
+              </div>
+            </div>
+            
+            <div class="image-column">
+              <img src="./assets/ecosystem.png" alt="Zerodha Ecosystem" class="ecosystem-image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
 
   </body>
 </html>
